@@ -21,4 +21,28 @@ public class App {
         }
         return a;
     }
+    public String c;
+    public int d;
+    public String echo(String c, int d){
+        if(d == 0)
+        {
+            return null;
+        }
+         String e = c;
+            for(int i =2 ;i <=d;i++ ){
+                c = c+e;
+            }
+
+        return c;
+    }
+    private zmienna1 zmienna1;
+    private zmienna2 zmienna2;
+
+    public void setZmienna1(zmienna1 zmienna1){
+        this.zmienna1 = zmienna1;
+    }
+    public void setZmienna2(zmienna2 zmienna2){
+        this.zmienna2 = zmienna2;
+    }
+
 }

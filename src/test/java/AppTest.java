@@ -82,6 +82,42 @@ public class AppTest {
         assertEquals(7,result);
         System.out.println("Test10");
     }
+    @Test
+    public void test11(){
+        String result = app.echo("luzik",3);
+        assertEquals("luzikluzikluzik",result);
+        System.out.println("Test11");
+    }
+    @Test
+    public void test12(){
+        String result = app.echo("luzik",5);
+        assertEquals("luzikluzikluzikluzikluzik",result);
+        System.out.println("Test12");
+    }
+    @Test
+    public void test13(){
+        String result = app.echo("luzik",4);
+        assertEquals("luzikluzikluzikluzik",result);
+        System.out.println("Test13");
+    }
+    @Test
+    public void test14(){
+        String result = app.echo("luzik",0);
+        assertEquals(null,result);
+        System.out.println("Test14");
+    }
+    @Test
+    public void test15(){
+        String result = app.setZmienna2( );
+        assertEquals(null,result);
+        System.out.println("Test14");
+    }
+    @Test
+    public void test16(){
+        String result = app.setZmienna1("luzik");
+        assertEquals(null,result);
+        System.out.println("Test14");
+    }
 
 
 
