@@ -108,7 +108,7 @@ public class AppTest {
     }
     @Test
     public void test15(){
-        String result = app.setZmienna2( );
+        String result = app.setZmienna2( zmienna2 "siemka " );
         assertEquals(null,result);
         System.out.println("Test14");
     }
