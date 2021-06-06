@@ -1,0 +1,1 @@
+zdjecie z raportem
